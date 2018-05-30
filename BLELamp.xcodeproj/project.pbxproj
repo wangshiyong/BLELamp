@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B57212E20BE322A00CCB5FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57212D20BE322A00CCB5FF /* AppDelegate.m */; };
+		7B57213120BE322A00CCB5FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57213020BE322A00CCB5FF /* ViewController.m */; };
+		7B57213420BE322A00CCB5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B57213220BE322A00CCB5FF /* Main.storyboard */; };
+		7B57213620BE322C00CCB5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B57213520BE322C00CCB5FF /* Assets.xcassets */; };
+		7B57213920BE322C00CCB5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B57213720BE322C00CCB5FF /* LaunchScreen.storyboard */; };
+		7B57213C20BE322C00CCB5FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57213B20BE322C00CCB5FF /* main.m */; };
+		7B57214620BE322C00CCB5FF /* BLELampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57214520BE322C00CCB5FF /* BLELampTests.m */; };
+		7B57215120BE322C00CCB5FF /* BLELampUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57215020BE322C00CCB5FF /* BLELampUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B57214220BE322C00CCB5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B57212120BE322A00CCB5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B57212820BE322A00CCB5FF;
+			remoteInfo = BLELamp;
+		};
+		7B57214D20BE322C00CCB5FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B57212120BE322A00CCB5FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B57212820BE322A00CCB5FF;
+			remoteInfo = BLELamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B57212920BE322A00CCB5FF /* BLELamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLELamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B57212C20BE322A00CCB5FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B57212D20BE322A00CCB5FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B57212F20BE322A00CCB5FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B57213020BE322A00CCB5FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B57213320BE322A00CCB5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B57213520BE322C00CCB5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B57213820BE322C00CCB5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B57213A20BE322C00CCB5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B57213B20BE322C00CCB5FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B57214120BE322C00CCB5FF /* BLELampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLELampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B57214520BE322C00CCB5FF /* BLELampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLELampTests.m; sourceTree = "<group>"; };
+		7B57214720BE322C00CCB5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B57214C20BE322C00CCB5FF /* BLELampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLELampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B57215020BE322C00CCB5FF /* BLELampUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLELampUITests.m; sourceTree = "<group>"; };
+		7B57215220BE322C00CCB5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B57212620BE322A00CCB5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B57213E20BE322C00CCB5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B57214920BE322C00CCB5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B57212020BE322A00CCB5FF = {
+			isa = PBXGroup;
+			children = (
+				7B57212B20BE322A00CCB5FF /* BLELamp */,
+				7B57214420BE322C00CCB5FF /* BLELampTests */,
+				7B57214F20BE322C00CCB5FF /* BLELampUITests */,
+				7B57212A20BE322A00CCB5FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B57212A20BE322A00CCB5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B57212920BE322A00CCB5FF /* BLELamp.app */,
+				7B57214120BE322C00CCB5FF /* BLELampTests.xctest */,
+				7B57214C20BE322C00CCB5FF /* BLELampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B57212B20BE322A00CCB5FF /* BLELamp */ = {
+			isa = PBXGroup;
+			children = (
+				7B57212C20BE322A00CCB5FF /* AppDelegate.h */,
+				7B57212D20BE322A00CCB5FF /* AppDelegate.m */,
+				7B57212F20BE322A00CCB5FF /* ViewController.h */,
+				7B57213020BE322A00CCB5FF /* ViewController.m */,
+				7B57213220BE322A00CCB5FF /* Main.storyboard */,
+				7B57213520BE322C00CCB5FF /* Assets.xcassets */,
+				7B57213720BE322C00CCB5FF /* LaunchScreen.storyboard */,
+				7B57213A20BE322C00CCB5FF /* Info.plist */,
+				7B57213B20BE322C00CCB5FF /* main.m */,
+			);
+			path = BLELamp;
+			sourceTree = "<group>";
+		};
+		7B57214420BE322C00CCB5FF /* BLELampTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B57214520BE322C00CCB5FF /* BLELampTests.m */,
+				7B57214720BE322C00CCB5FF /* Info.plist */,
+			);
+			path = BLELampTests;
+			sourceTree = "<group>";
+		};
+		7B57214F20BE322C00CCB5FF /* BLELampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B57215020BE322C00CCB5FF /* BLELampUITests.m */,
+				7B57215220BE322C00CCB5FF /* Info.plist */,
+			);
+			path = BLELampUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B57212820BE322A00CCB5FF /* BLELamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B57215520BE322C00CCB5FF /* Build configuration list for PBXNativeTarget "BLELamp" */;
+			buildPhases = (
+				7B57212520BE322A00CCB5FF /* Sources */,
+				7B57212620BE322A00CCB5FF /* Frameworks */,
+				7B57212720BE322A00CCB5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BLELamp;
+			productName = BLELamp;
+			productReference = 7B57212920BE322A00CCB5FF /* BLELamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B57214020BE322C00CCB5FF /* BLELampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B57215820BE322C00CCB5FF /* Build configuration list for PBXNativeTarget "BLELampTests" */;
+			buildPhases = (
+				7B57213D20BE322C00CCB5FF /* Sources */,
+				7B57213E20BE322C00CCB5FF /* Frameworks */,
+				7B57213F20BE322C00CCB5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B57214320BE322C00CCB5FF /* PBXTargetDependency */,
+			);
+			name = BLELampTests;
+			productName = BLELampTests;
+			productReference = 7B57214120BE322C00CCB5FF /* BLELampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B57214B20BE322C00CCB5FF /* BLELampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B57215B20BE322C00CCB5FF /* Build configuration list for PBXNativeTarget "BLELampUITests" */;
+			buildPhases = (
+				7B57214820BE322C00CCB5FF /* Sources */,
+				7B57214920BE322C00CCB5FF /* Frameworks */,
+				7B57214A20BE322C00CCB5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B57214E20BE322C00CCB5FF /* PBXTargetDependency */,
+			);
+			name = BLELampUITests;
+			productName = BLELampUITests;
+			productReference = 7B57214C20BE322C00CCB5FF /* BLELampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B57212120BE322A00CCB5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "王世勇";
+				TargetAttributes = {
+					7B57212820BE322A00CCB5FF = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					7B57214020BE322C00CCB5FF = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 7B57212820BE322A00CCB5FF;
+					};
+					7B57214B20BE322C00CCB5FF = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 7B57212820BE322A00CCB5FF;
+					};
+				};
+			};
+			buildConfigurationList = 7B57212420BE322A00CCB5FF /* Build configuration list for PBXProject "BLELamp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B57212020BE322A00CCB5FF;
+			productRefGroup = 7B57212A20BE322A00CCB5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B57212820BE322A00CCB5FF /* BLELamp */,
+				7B57214020BE322C00CCB5FF /* BLELampTests */,
+				7B57214B20BE322C00CCB5FF /* BLELampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B57212720BE322A00CCB5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B57213920BE322C00CCB5FF /* LaunchScreen.storyboard in Resources */,
+				7B57213620BE322C00CCB5FF /* Assets.xcassets in Resources */,
+				7B57213420BE322A00CCB5FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B57213F20BE322C00CCB5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B57214A20BE322C00CCB5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B57212520BE322A00CCB5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B57213120BE322A00CCB5FF /* ViewController.m in Sources */,
+				7B57213C20BE322C00CCB5FF /* main.m in Sources */,
+				7B57212E20BE322A00CCB5FF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B57213D20BE322C00CCB5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B57214620BE322C00CCB5FF /* BLELampTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B57214820BE322C00CCB5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B57215120BE322C00CCB5FF /* BLELampUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B57214320BE322C00CCB5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B57212820BE322A00CCB5FF /* BLELamp */;
+			targetProxy = 7B57214220BE322C00CCB5FF /* PBXContainerItemProxy */;
+		};
+		7B57214E20BE322C00CCB5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B57212820BE322A00CCB5FF /* BLELamp */;
+			targetProxy = 7B57214D20BE322C00CCB5FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B57213220BE322A00CCB5FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B57213320BE322A00CCB5FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B57213720BE322C00CCB5FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B57213820BE322C00CCB5FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B57215320BE322C00CCB5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B57215420BE322C00CCB5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B57215620BE322C00CCB5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLELamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wsy.BLELamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B57215720BE322C00CCB5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLELamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wsy.BLELamp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B57215920BE322C00CCB5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLELampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wsy.BLELampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLELamp.app/BLELamp";
+			};
+			name = Debug;
+		};
+		7B57215A20BE322C00CCB5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLELampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wsy.BLELampTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BLELamp.app/BLELamp";
+			};
+			name = Release;
+		};
+		7B57215C20BE322C00CCB5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLELampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wsy.BLELampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLELamp;
+			};
+			name = Debug;
+		};
+		7B57215D20BE322C00CCB5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BLELampUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wsy.BLELampUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BLELamp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B57212420BE322A00CCB5FF /* Build configuration list for PBXProject "BLELamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B57215320BE322C00CCB5FF /* Debug */,
+				7B57215420BE322C00CCB5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B57215520BE322C00CCB5FF /* Build configuration list for PBXNativeTarget "BLELamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B57215620BE322C00CCB5FF /* Debug */,
+				7B57215720BE322C00CCB5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B57215820BE322C00CCB5FF /* Build configuration list for PBXNativeTarget "BLELampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B57215920BE322C00CCB5FF /* Debug */,
+				7B57215A20BE322C00CCB5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B57215B20BE322C00CCB5FF /* Build configuration list for PBXNativeTarget "BLELampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B57215C20BE322C00CCB5FF /* Debug */,
+				7B57215D20BE322C00CCB5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B57212120BE322A00CCB5FF /* Project object */;
+}
