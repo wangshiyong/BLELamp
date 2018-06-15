@@ -10,15 +10,29 @@
 
 @interface ViewController ()
 
+@property (strong, nonatomic) NSMutableString *currentLanguage;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:@"21312313" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(www) forControlEvents:UIControlEventTouchUpInside];
+    btn.frame = (CGRect){100, 100, 100, 100};
+    [self.view addSubview:btn];
 }
 
+- (void)www {
+    [WSYUserDataTool setUserData:LanguageCode[0] forKey:CHANGE_LANGUAGE];
+    [WSYLanguageTool userSelectedLanguage:LanguageCode[0]];
+    [[NSNotificationCenter defaultCenter]postNotificationName:CHANGE_LANGUAGE_NOTICE object:nil];
+    NSLog(@"213123");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -1,0 +1,55 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - iOS-Echarts (1.4.4)
+  - Masonry (1.1.0)
+  - MGSwipeTableCell (1.6.7)
+  - ReactiveCocoa (2.5.2):
+    - ReactiveCocoa/UI (= 2.5.2)
+  - ReactiveCocoa/Core (2.5.2):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5.2)
+  - ReactiveCocoa/UI (2.5.2):
+    - ReactiveCocoa/Core
+  - SAMKeychain (1.5.3)
+  - SCLAlertView-Objective-C (1.1.3)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - iOS-Echarts
+  - Masonry
+  - MGSwipeTableCell
+  - ReactiveCocoa (from `https://github.com/zhao0/ReactiveCocoa.git`, tag `2.5.2`)
+  - SAMKeychain
+  - SCLAlertView-Objective-C
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DZNEmptyDataSet
+    - iOS-Echarts
+    - Masonry
+    - MGSwipeTableCell
+    - SAMKeychain
+    - SCLAlertView-Objective-C
+
+EXTERNAL SOURCES:
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+CHECKOUT OPTIONS:
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  iOS-Echarts: dbc7423d861e5eedee78906a39d205b5c4da9a13
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MGSwipeTableCell: fb20e983988bde2b8d0df29c2d9e1d8ffd10b74a
+  ReactiveCocoa: 3ff25b1bd992ac79c5c79b26b6c0c1713b715bb2
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SCLAlertView-Objective-C: 917836fb2349afa58edc43d592d22d21d46bb2a4
+
+PODFILE CHECKSUM: 5cdf43c92d5d733a8d3ac0de4bb41203ae6241d7
+
+COCOAPODS: 1.5.2

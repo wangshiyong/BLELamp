@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D96F969B17689BA43B9E03A /* Pods_BLELamp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558908890B6A20B8E0E8CD53 /* Pods_BLELamp.framework */; };
+		7B2DD1E720C1244900FDDFEC /* WSYDefaultInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2DD1E620C1244900FDDFEC /* WSYDefaultInstance.m */; };
+		7B47109920BEB83100645B14 /* WSYDevicesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47109820BEB83100645B14 /* WSYDevicesCell.m */; };
 		7B57212E20BE322A00CCB5FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57212D20BE322A00CCB5FF /* AppDelegate.m */; };
 		7B57213120BE322A00CCB5FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57213020BE322A00CCB5FF /* ViewController.m */; };
 		7B57213420BE322A00CCB5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B57213220BE322A00CCB5FF /* Main.storyboard */; };
@@ -15,6 +18,34 @@
 		7B57213C20BE322C00CCB5FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57213B20BE322C00CCB5FF /* main.m */; };
 		7B57214620BE322C00CCB5FF /* BLELampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57214520BE322C00CCB5FF /* BLELampTests.m */; };
 		7B57215120BE322C00CCB5FF /* BLELampUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57215020BE322C00CCB5FF /* BLELampUITests.m */; };
+		7B57217020BE347300CCB5FF /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57216220BE347100CCB5FF /* UIControl+CYLTabBarControllerExtention.m */; };
+		7B57217120BE347300CCB5FF /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57216320BE347100CCB5FF /* CYLPlusButton.m */; };
+		7B57217220BE347300CCB5FF /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57216420BE347100CCB5FF /* UIView+CYLTabBarControllerExtention.m */; };
+		7B57217320BE347300CCB5FF /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57216720BE347200CCB5FF /* CYLTabBar.m */; };
+		7B57217420BE347300CCB5FF /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57216820BE347200CCB5FF /* UITabBarItem+CYLTabBarControllerExtention.m */; };
+		7B57217520BE347300CCB5FF /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57216920BE347200CCB5FF /* CYLTabBarController.m */; };
+		7B57217620BE347300CCB5FF /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57216D20BE347200CCB5FF /* UIViewController+CYLTabBarControllerExtention.m */; };
+		7B57217A20BE34F000CCB5FF /* WSYLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57217920BE34F000CCB5FF /* WSYLanguageTool.m */; };
+		7B57217D20BE352500CCB5FF /* WSYUserDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57217C20BE352500CCB5FF /* WSYUserDataTool.m */; };
+		7B57218820BE369F00CCB5FF /* WSYKeyName.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57218520BE369E00CCB5FF /* WSYKeyName.m */; };
+		7B57218920BE369F00CCB5FF /* WSYNotificationCenterName.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57218620BE369E00CCB5FF /* WSYNotificationCenterName.m */; };
+		7B57218E20BE382F00CCB5FF /* WSYTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57218C20BE382F00CCB5FF /* WSYTabBarControllerConfig.m */; };
+		7B57219420BE3AE400CCB5FF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B57219620BE3AE400CCB5FF /* Localizable.strings */; };
+		7B57219A20BE731A00CCB5FF /* WSYDevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B57219920BE731A00CCB5FF /* WSYDevicesViewController.m */; };
+		7B66BA5A20D284B6002B11AE /* WSYProgramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B66BA5920D284B6002B11AE /* WSYProgramViewController.m */; };
+		7B7CCAA120BFC28300F8C09E /* WSYQuickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CCAA020BFC28300F8C09E /* WSYQuickViewController.m */; };
+		7B7CCAA620BFCD6D00F8C09E /* WSYStatusViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CCAA520BFCD6D00F8C09E /* WSYStatusViewCell.m */; };
+		7B7CCAA920BFDDE100F8C09E /* WSYLineOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CCAA820BFDDE100F8C09E /* WSYLineOptions.m */; };
+		7B7CCAAC20BFE0E600F8C09E /* WSYHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7CCAAB20BFE0E600F8C09E /* WSYHeadView.m */; };
+		7BB996AF20BE88EC00943269 /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9969E20BE88E900943269 /* BabyPeripheralManager.m */; };
+		7BB996B020BE88EC00943269 /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9969F20BE88EA00943269 /* BabyOptions.m */; };
+		7BB996B120BE88EC00943269 /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB996A120BE88EA00943269 /* BabyCallback.m */; };
+		7BB996B220BE88EC00943269 /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB996A520BE88EB00943269 /* BabyRhythm.m */; };
+		7BB996B320BE88EC00943269 /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB996A820BE88EB00943269 /* BabyCentralManager.m */; };
+		7BB996B420BE88EC00943269 /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB996A920BE88EB00943269 /* BabySpeaker.m */; };
+		7BB996B520BE88EC00943269 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB996AA20BE88EB00943269 /* BabyBluetooth.m */; };
+		7BB996B620BE88EC00943269 /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB996AB20BE88EB00943269 /* BabyDefine.m */; };
+		7BB996B720BE88EC00943269 /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB996AC20BE88EC00943269 /* BabyToy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +66,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50DA4E3E1D148DB090A67BAD /* Pods-BLELamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLELamp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BLELamp/Pods-BLELamp.release.xcconfig"; sourceTree = "<group>"; };
+		558908890B6A20B8E0E8CD53 /* Pods_BLELamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLELamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2DD1E520C1244900FDDFEC /* WSYDefaultInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSYDefaultInstance.h; sourceTree = "<group>"; };
+		7B2DD1E620C1244900FDDFEC /* WSYDefaultInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSYDefaultInstance.m; sourceTree = "<group>"; };
+		7B47109720BEB83100645B14 /* WSYDevicesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSYDevicesCell.h; sourceTree = "<group>"; };
+		7B47109820BEB83100645B14 /* WSYDevicesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSYDevicesCell.m; sourceTree = "<group>"; };
 		7B57212920BE322A00CCB5FF /* BLELamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLELamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B57212C20BE322A00CCB5FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B57212D20BE322A00CCB5FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +88,67 @@
 		7B57214C20BE322C00CCB5FF /* BLELampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLELampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B57215020BE322C00CCB5FF /* BLELampUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLELampUITests.m; sourceTree = "<group>"; };
 		7B57215220BE322C00CCB5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B57216120BE347100CCB5FF /* CYLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLConstants.h; sourceTree = "<group>"; };
+		7B57216220BE347100CCB5FF /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		7B57216320BE347100CCB5FF /* CYLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
+		7B57216420BE347100CCB5FF /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		7B57216520BE347100CCB5FF /* CYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
+		7B57216620BE347100CCB5FF /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		7B57216720BE347200CCB5FF /* CYLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
+		7B57216820BE347200CCB5FF /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		7B57216920BE347200CCB5FF /* CYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
+		7B57216A20BE347200CCB5FF /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		7B57216B20BE347200CCB5FF /* CYLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
+		7B57216C20BE347200CCB5FF /* CYLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
+		7B57216D20BE347200CCB5FF /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		7B57216E20BE347200CCB5FF /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		7B57216F20BE347200CCB5FF /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		7B57217820BE34F000CCB5FF /* WSYLanguageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSYLanguageTool.h; sourceTree = "<group>"; };
+		7B57217920BE34F000CCB5FF /* WSYLanguageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSYLanguageTool.m; sourceTree = "<group>"; };
+		7B57217B20BE352500CCB5FF /* WSYUserDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSYUserDataTool.h; sourceTree = "<group>"; };
+		7B57217C20BE352500CCB5FF /* WSYUserDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSYUserDataTool.m; sourceTree = "<group>"; };
+		7B57217F20BE35B100CCB5FF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7B57218120BE35E600CCB5FF /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		7B57218420BE369E00CCB5FF /* WSYNotificationCenterName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSYNotificationCenterName.h; sourceTree = "<group>"; };
+		7B57218520BE369E00CCB5FF /* WSYKeyName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSYKeyName.m; sourceTree = "<group>"; };
+		7B57218620BE369E00CCB5FF /* WSYNotificationCenterName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSYNotificationCenterName.m; sourceTree = "<group>"; };
+		7B57218720BE369F00CCB5FF /* WSYKeyName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSYKeyName.h; sourceTree = "<group>"; };
+		7B57218C20BE382F00CCB5FF /* WSYTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSYTabBarControllerConfig.m; sourceTree = "<group>"; };
+		7B57218D20BE382F00CCB5FF /* WSYTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSYTabBarControllerConfig.h; sourceTree = "<group>"; };
+		7B57219520BE3AE400CCB5FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7B57219720BE3B1400CCB5FF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7B57219820BE731A00CCB5FF /* WSYDevicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSYDevicesViewController.h; sourceTree = "<group>"; };
+		7B57219920BE731A00CCB5FF /* WSYDevicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSYDevicesViewController.m; sourceTree = "<group>"; };
+		7B66BA5820D284B6002B11AE /* WSYProgramViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSYProgramViewController.h; sourceTree = "<group>"; };
+		7B66BA5920D284B6002B11AE /* WSYProgramViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSYProgramViewController.m; sourceTree = "<group>"; };
+		7B7CCA9F20BFC28300F8C09E /* WSYQuickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSYQuickViewController.h; sourceTree = "<group>"; };
+		7B7CCAA020BFC28300F8C09E /* WSYQuickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSYQuickViewController.m; sourceTree = "<group>"; };
+		7B7CCAA320BFC3D800F8C09E /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		7B7CCAA420BFCD6D00F8C09E /* WSYStatusViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSYStatusViewCell.h; sourceTree = "<group>"; };
+		7B7CCAA520BFCD6D00F8C09E /* WSYStatusViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSYStatusViewCell.m; sourceTree = "<group>"; };
+		7B7CCAA720BFDDE100F8C09E /* WSYLineOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSYLineOptions.h; sourceTree = "<group>"; };
+		7B7CCAA820BFDDE100F8C09E /* WSYLineOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSYLineOptions.m; sourceTree = "<group>"; };
+		7B7CCAAA20BFE0E600F8C09E /* WSYHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSYHeadView.h; sourceTree = "<group>"; };
+		7B7CCAAB20BFE0E600F8C09E /* WSYHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSYHeadView.m; sourceTree = "<group>"; };
+		7BB9969D20BE88E900943269 /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		7BB9969E20BE88E900943269 /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		7BB9969F20BE88EA00943269 /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		7BB996A020BE88EA00943269 /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		7BB996A120BE88EA00943269 /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		7BB996A220BE88EA00943269 /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		7BB996A320BE88EA00943269 /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		7BB996A420BE88EA00943269 /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		7BB996A520BE88EB00943269 /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		7BB996A620BE88EB00943269 /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		7BB996A720BE88EB00943269 /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		7BB996A820BE88EB00943269 /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		7BB996A920BE88EB00943269 /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		7BB996AA20BE88EB00943269 /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		7BB996AB20BE88EB00943269 /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		7BB996AC20BE88EC00943269 /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+		7BB996AD20BE88EC00943269 /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		7BB996AE20BE88EC00943269 /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		7E9A342EA576D4C05D861EC2 /* Pods-BLELamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BLELamp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BLELamp/Pods-BLELamp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D96F969B17689BA43B9E03A /* Pods_BLELamp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +177,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7795BEAB218CCFFFDB7BE140 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				558908890B6A20B8E0E8CD53 /* Pods_BLELamp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B57212020BE322A00CCB5FF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +192,8 @@
 				7B57214420BE322C00CCB5FF /* BLELampTests */,
 				7B57214F20BE322C00CCB5FF /* BLELampUITests */,
 				7B57212A20BE322A00CCB5FF /* Products */,
+				DA2F3DB59EE8D8602F26DF32 /* Pods */,
+				7795BEAB218CCFFFDB7BE140 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +210,18 @@
 		7B57212B20BE322A00CCB5FF /* BLELamp */ = {
 			isa = PBXGroup;
 			children = (
-				7B57212C20BE322A00CCB5FF /* AppDelegate.h */,
-				7B57212D20BE322A00CCB5FF /* AppDelegate.m */,
+				7B57215E20BE343B00CCB5FF /* Classes */,
+				7B57217E20BE359900CCB5FF /* Supporting Files */,
 				7B57212F20BE322A00CCB5FF /* ViewController.h */,
 				7B57213020BE322A00CCB5FF /* ViewController.m */,
+				7B47109720BEB83100645B14 /* WSYDevicesCell.h */,
+				7B47109820BEB83100645B14 /* WSYDevicesCell.m */,
+				7B7CCAA420BFCD6D00F8C09E /* WSYStatusViewCell.h */,
+				7B7CCAA520BFCD6D00F8C09E /* WSYStatusViewCell.m */,
+				7B7CCAA720BFDDE100F8C09E /* WSYLineOptions.h */,
+				7B7CCAA820BFDDE100F8C09E /* WSYLineOptions.m */,
+				7B7CCAAA20BFE0E600F8C09E /* WSYHeadView.h */,
+				7B7CCAAB20BFE0E600F8C09E /* WSYHeadView.m */,
 				7B57213220BE322A00CCB5FF /* Main.storyboard */,
 				7B57213520BE322C00CCB5FF /* Assets.xcassets */,
 				7B57213720BE322C00CCB5FF /* LaunchScreen.storyboard */,
@@ -132,6 +249,223 @@
 			path = BLELampUITests;
 			sourceTree = "<group>";
 		};
+		7B57215E20BE343B00CCB5FF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7B66BA6120D28608002B11AE /* Setting */,
+				7B66BA5F20D285E5002B11AE /* Program */,
+				7B66BA5D20D285C3002B11AE /* Quick */,
+				7B66BA5B20D2859E002B11AE /* Devices */,
+				7B57218A20BE375200CCB5FF /* AppDelegate */,
+				7B57218B20BE382000CCB5FF /* Main */,
+				7B57218220BE368400CCB5FF /* Expand(扩展) */,
+				7B57215F20BE344800CCB5FF /* Vendors(第三方) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7B57215F20BE344800CCB5FF /* Vendors(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+				7BB9969C20BE88B800943269 /* BabyBluetooth */,
+				7B57216020BE345B00CCB5FF /* CYLTabBarController */,
+			);
+			path = "Vendors(第三方)";
+			sourceTree = "<group>";
+		};
+		7B57216020BE345B00CCB5FF /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				7B57216120BE347100CCB5FF /* CYLConstants.h */,
+				7B57216C20BE347200CCB5FF /* CYLPlusButton.h */,
+				7B57216320BE347100CCB5FF /* CYLPlusButton.m */,
+				7B57216B20BE347200CCB5FF /* CYLTabBar.h */,
+				7B57216720BE347200CCB5FF /* CYLTabBar.m */,
+				7B57216520BE347100CCB5FF /* CYLTabBarController.h */,
+				7B57216920BE347200CCB5FF /* CYLTabBarController.m */,
+				7B57216A20BE347200CCB5FF /* UIControl+CYLTabBarControllerExtention.h */,
+				7B57216220BE347100CCB5FF /* UIControl+CYLTabBarControllerExtention.m */,
+				7B57216E20BE347200CCB5FF /* UITabBarItem+CYLTabBarControllerExtention.h */,
+				7B57216820BE347200CCB5FF /* UITabBarItem+CYLTabBarControllerExtention.m */,
+				7B57216620BE347100CCB5FF /* UIView+CYLTabBarControllerExtention.h */,
+				7B57216420BE347100CCB5FF /* UIView+CYLTabBarControllerExtention.m */,
+				7B57216F20BE347200CCB5FF /* UIViewController+CYLTabBarControllerExtention.h */,
+				7B57216D20BE347200CCB5FF /* UIViewController+CYLTabBarControllerExtention.m */,
+			);
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		7B57217720BE34D600CCB5FF /* Tool(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				7B57217B20BE352500CCB5FF /* WSYUserDataTool.h */,
+				7B57217C20BE352500CCB5FF /* WSYUserDataTool.m */,
+				7B57217820BE34F000CCB5FF /* WSYLanguageTool.h */,
+				7B57217920BE34F000CCB5FF /* WSYLanguageTool.m */,
+				7B2DD1E520C1244900FDDFEC /* WSYDefaultInstance.h */,
+				7B2DD1E620C1244900FDDFEC /* WSYDefaultInstance.m */,
+			);
+			path = "Tool(工具类)";
+			sourceTree = "<group>";
+		};
+		7B57217E20BE359900CCB5FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B57217F20BE35B100CCB5FF /* PrefixHeader.pch */,
+				7B57219620BE3AE400CCB5FF /* Localizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B57218020BE35DC00CCB5FF /* Headers(头文件) */ = {
+			isa = PBXGroup;
+			children = (
+				7B57218120BE35E600CCB5FF /* Header.h */,
+			);
+			path = "Headers(头文件)";
+			sourceTree = "<group>";
+		};
+		7B57218220BE368400CCB5FF /* Expand(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				7B7CCAA220BFC3CE00F8C09E /* Macros(宏) */,
+				7B57218320BE369200CCB5FF /* Const(常量) */,
+				7B57217720BE34D600CCB5FF /* Tool(工具类) */,
+				7B57218020BE35DC00CCB5FF /* Headers(头文件) */,
+			);
+			path = "Expand(扩展)";
+			sourceTree = "<group>";
+		};
+		7B57218320BE369200CCB5FF /* Const(常量) */ = {
+			isa = PBXGroup;
+			children = (
+				7B57218720BE369F00CCB5FF /* WSYKeyName.h */,
+				7B57218520BE369E00CCB5FF /* WSYKeyName.m */,
+				7B57218420BE369E00CCB5FF /* WSYNotificationCenterName.h */,
+				7B57218620BE369E00CCB5FF /* WSYNotificationCenterName.m */,
+			);
+			path = "Const(常量)";
+			sourceTree = "<group>";
+		};
+		7B57218A20BE375200CCB5FF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7B57212C20BE322A00CCB5FF /* AppDelegate.h */,
+				7B57212D20BE322A00CCB5FF /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7B57218B20BE382000CCB5FF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7B57218D20BE382F00CCB5FF /* WSYTabBarControllerConfig.h */,
+				7B57218C20BE382F00CCB5FF /* WSYTabBarControllerConfig.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7B66BA5B20D2859E002B11AE /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				7B66BA5C20D285B0002B11AE /* Controller */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		7B66BA5C20D285B0002B11AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B57219820BE731A00CCB5FF /* WSYDevicesViewController.h */,
+				7B57219920BE731A00CCB5FF /* WSYDevicesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7B66BA5D20D285C3002B11AE /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				7B66BA5E20D285D0002B11AE /* Controlller */,
+			);
+			path = Quick;
+			sourceTree = "<group>";
+		};
+		7B66BA5E20D285D0002B11AE /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+				7B7CCA9F20BFC28300F8C09E /* WSYQuickViewController.h */,
+				7B7CCAA020BFC28300F8C09E /* WSYQuickViewController.m */,
+			);
+			path = Controlller;
+			sourceTree = "<group>";
+		};
+		7B66BA5F20D285E5002B11AE /* Program */ = {
+			isa = PBXGroup;
+			children = (
+				7B66BA6020D285FA002B11AE /* Controller */,
+			);
+			path = Program;
+			sourceTree = "<group>";
+		};
+		7B66BA6020D285FA002B11AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B66BA5820D284B6002B11AE /* WSYProgramViewController.h */,
+				7B66BA5920D284B6002B11AE /* WSYProgramViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7B66BA6120D28608002B11AE /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		7B7CCAA220BFC3CE00F8C09E /* Macros(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				7B7CCAA320BFC3D800F8C09E /* Macros.h */,
+			);
+			path = "Macros(宏)";
+			sourceTree = "<group>";
+		};
+		7BB9969C20BE88B800943269 /* BabyBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				7BB996AD20BE88EC00943269 /* BabyBluetooth.h */,
+				7BB996AA20BE88EB00943269 /* BabyBluetooth.m */,
+				7BB996A220BE88EA00943269 /* BabyCallback.h */,
+				7BB996A120BE88EA00943269 /* BabyCallback.m */,
+				7BB996A020BE88EA00943269 /* BabyCentralManager.h */,
+				7BB996A820BE88EB00943269 /* BabyCentralManager.m */,
+				7BB996A420BE88EA00943269 /* BabyDefine.h */,
+				7BB996AB20BE88EB00943269 /* BabyDefine.m */,
+				7BB996AE20BE88EC00943269 /* BabyOptions.h */,
+				7BB9969F20BE88EA00943269 /* BabyOptions.m */,
+				7BB996A720BE88EB00943269 /* BabyPeripheralManager.h */,
+				7BB9969E20BE88E900943269 /* BabyPeripheralManager.m */,
+				7BB996A620BE88EB00943269 /* BabyRhythm.h */,
+				7BB996A520BE88EB00943269 /* BabyRhythm.m */,
+				7BB9969D20BE88E900943269 /* BabySpeaker.h */,
+				7BB996A920BE88EB00943269 /* BabySpeaker.m */,
+				7BB996A320BE88EA00943269 /* BabyToy.h */,
+				7BB996AC20BE88EC00943269 /* BabyToy.m */,
+			);
+			name = BabyBluetooth;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DA2F3DB59EE8D8602F26DF32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E9A342EA576D4C05D861EC2 /* Pods-BLELamp.debug.xcconfig */,
+				50DA4E3E1D148DB090A67BAD /* Pods-BLELamp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +473,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B57215520BE322C00CCB5FF /* Build configuration list for PBXNativeTarget "BLELamp" */;
 			buildPhases = (
+				B1219969BDE4D51C4FDD65DB /* [CP] Check Pods Manifest.lock */,
 				7B57212520BE322A00CCB5FF /* Sources */,
 				7B57212620BE322A00CCB5FF /* Frameworks */,
 				7B57212720BE322A00CCB5FF /* Resources */,
+				CD42DD0F407E1DE92E8AB865 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +535,11 @@
 				TargetAttributes = {
 					7B57212820BE322A00CCB5FF = {
 						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					7B57214020BE322C00CCB5FF = {
 						CreatedOnToolsVersion = 9.3.1;
@@ -217,6 +558,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 7B57212020BE322A00CCB5FF;
 			productRefGroup = 7B57212A20BE322A00CCB5FF /* Products */;
@@ -236,6 +578,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B57213920BE322C00CCB5FF /* LaunchScreen.storyboard in Resources */,
+				7B57219420BE3AE400CCB5FF /* Localizable.strings in Resources */,
 				7B57213620BE322C00CCB5FF /* Assets.xcassets in Resources */,
 				7B57213420BE322A00CCB5FF /* Main.storyboard in Resources */,
 			);
@@ -257,14 +600,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B1219969BDE4D51C4FDD65DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BLELamp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD42DD0F407E1DE92E8AB865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BLELamp/Pods-BLELamp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SAMKeychain/SAMKeychain.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView-Objective-C/SCLAlertView_Objective_C.framework",
+				"${BUILT_PRODUCTS_DIR}/iOS-Echarts/iOS_Echarts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAMKeychain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView_Objective_C.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Echarts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BLELamp/Pods-BLELamp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B57212520BE322A00CCB5FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB996B620BE88EC00943269 /* BabyDefine.m in Sources */,
+				7B57218820BE369F00CCB5FF /* WSYKeyName.m in Sources */,
+				7BB996B520BE88EC00943269 /* BabyBluetooth.m in Sources */,
+				7BB996B220BE88EC00943269 /* BabyRhythm.m in Sources */,
+				7B57217420BE347300CCB5FF /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
+				7B57217A20BE34F000CCB5FF /* WSYLanguageTool.m in Sources */,
+				7B57217320BE347300CCB5FF /* CYLTabBar.m in Sources */,
+				7BB996AF20BE88EC00943269 /* BabyPeripheralManager.m in Sources */,
+				7B7CCAA620BFCD6D00F8C09E /* WSYStatusViewCell.m in Sources */,
+				7B57219A20BE731A00CCB5FF /* WSYDevicesViewController.m in Sources */,
+				7B7CCAAC20BFE0E600F8C09E /* WSYHeadView.m in Sources */,
+				7B57218920BE369F00CCB5FF /* WSYNotificationCenterName.m in Sources */,
+				7BB996B720BE88EC00943269 /* BabyToy.m in Sources */,
+				7B57217120BE347300CCB5FF /* CYLPlusButton.m in Sources */,
 				7B57213120BE322A00CCB5FF /* ViewController.m in Sources */,
+				7B66BA5A20D284B6002B11AE /* WSYProgramViewController.m in Sources */,
+				7B7CCAA120BFC28300F8C09E /* WSYQuickViewController.m in Sources */,
+				7B57217620BE347300CCB5FF /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				7B57217D20BE352500CCB5FF /* WSYUserDataTool.m in Sources */,
+				7BB996B320BE88EC00943269 /* BabyCentralManager.m in Sources */,
+				7B2DD1E720C1244900FDDFEC /* WSYDefaultInstance.m in Sources */,
+				7B57217220BE347300CCB5FF /* UIView+CYLTabBarControllerExtention.m in Sources */,
 				7B57213C20BE322C00CCB5FF /* main.m in Sources */,
 				7B57212E20BE322A00CCB5FF /* AppDelegate.m in Sources */,
+				7B57218E20BE382F00CCB5FF /* WSYTabBarControllerConfig.m in Sources */,
+				7B7CCAA920BFDDE100F8C09E /* WSYLineOptions.m in Sources */,
+				7B57217020BE347300CCB5FF /* UIControl+CYLTabBarControllerExtention.m in Sources */,
+				7BB996B020BE88EC00943269 /* BabyOptions.m in Sources */,
+				7BB996B420BE88EC00943269 /* BabySpeaker.m in Sources */,
+				7B47109920BEB83100645B14 /* WSYDevicesCell.m in Sources */,
+				7BB996B120BE88EC00943269 /* BabyCallback.m in Sources */,
+				7B57217520BE347300CCB5FF /* CYLTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +739,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		7B57219620BE3AE400CCB5FF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B57219520BE3AE400CCB5FF /* en */,
+				7B57219720BE3B1400CCB5FF /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -323,6 +755,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -381,6 +814,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -431,33 +865,41 @@
 		};
 		7B57215620BE322C00CCB5FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9A342EA576D4C05D861EC2 /* Pods-BLELamp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88E3296G5W;
+				GCC_PREFIX_HEADER = "BLELamp/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = BLELamp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wsy.BLELamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7B57215720BE322C00CCB5FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50DA4E3E1D148DB090A67BAD /* Pods-BLELamp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88E3296G5W;
+				GCC_PREFIX_HEADER = "BLELamp/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = BLELamp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wsy.BLELamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
